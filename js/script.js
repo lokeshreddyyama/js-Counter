@@ -12,14 +12,14 @@ var interval = setInterval(function () {
     countDown.innerHTML = initialCountdown;
 
     // console.log(initialCountdown * 100 + "px");
-    countDown.style.fontSize = initialCountdown * 100 + "px";
+    countDown.style.fontSize = initialCountdown * 50 + "px";
 
      bgImage.style.width= initialCountdown*100 +"px";
      bgImage.style.height= initialCountdown*100 +"px";
 
     var imagePath = initialCountdown % 2 === 0 ? './images/bg1.jpg' : './images/bg2.jpg';
     bgImage.src = imagePath;
-    
+
     console.log(bgImage.src);
 
     if (initialCountdown <= 0) {
