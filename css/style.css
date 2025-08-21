@@ -23,14 +23,14 @@ h1 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 550px;
+    font-size: 250px;
     padding: 0 10px;
   }
 }
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 350px;
+    font-size: 150px;
     padding: 0 5px;
   }
 }
